@@ -1,7 +1,7 @@
 # 导师写作风格卡片
 
-> 导师：Guo Chuan Fei (郭传飞) | 学科：柔性电子 / 离子电子学 (Flexible Electronics / Iontronics) | 分析论文数：22 篇 | 年份范围：2020-2025 | 分析日期：2026-04-21
-> 数据来源：22 篇 PDF 论文（Nature Communications、Science Advances、Advanced Materials、Advanced Functional Materials、NPG Asia Materials 等）
+> 导师：Guo Chuan Fei (郭传飞) | 学科：柔性电子 / 离子电子学 (Flexible Electronics / Iontronics) | 分析论文数：22 篇 | 年份范围：2020-2025 | 分析日期：2026-04-21 | 最近校准：2026-04-22
+> 数据来源：22 篇 PDF 论文（Nature Communications、Science Advances、Advanced Materials、Advanced Functional Materials、NPG Asia Materials 等）+ 2 份导师亲自修改稿校准（Results + Introduction）
 > 风格基准期：2022-2025（共 16 篇，占总数 73%）
 
 ---
@@ -12,9 +12,10 @@
 
 ### 1.1 宏观结构
 
-- **Introduction**：4-6 段，CARS Move 顺序为 背景(1-2段) → 现有方法不足(1-2段) → Gap 指出 → 本文贡献(末段)
-- **Introduction 篇幅**：极紧凑，占全文 **3-8%**（多数 100-150 词），信息密度极高
-- **Contribution 格式**：**100% 叙事句**（22/22），绝不使用 bullet list。在 Introduction 末段用 "In this work, ..." / "Herein, we demonstrate ..." 引出，2-3 个贡献点连贯呈现
+- **Introduction**：3-5 段，CARS Move 顺序为 背景(1-2段) → 现有方法不足(1-2段) → Gap 指出 → 本文贡献(末段)
+- **Introduction 篇幅**：200-400 词（3-5段），信息密度极高，每段承载多个论点
+- **Contribution 格式**：**100% 叙事句**（22/22），绝不使用 bullet list。在 Introduction 末段用 "In this work, ..." / "Herein, we demonstrate ..." / "Here, we report ..." 引出，2-3 个贡献点连贯呈现
+- **Contribution 性能数据前置**：导师倾向在贡献声明段直接给出2-3组关键性能数据+对比，而非仅声明方向。读者在 Introduction 结束时已掌握核心数字
 - **Related Work**：**22/22 无独立章节**，相关工作融入 Introduction，通过引用密集段落展示文献掌握
 - **Results & Discussion**：部分合并为 "Results and Discussion"，部分分开。数据呈现先图后文
 - **Conclusion**：1 段（100-150 词），不重述 contribution 逐条，概括核心发现 + 应用前景收尾
@@ -81,9 +82,9 @@
 
 ### 1.4 论证逻辑
 
-- **问题引入方式**：**应用驱动 + 仿生类比**。从实际应用场景（电子皮肤、正畸力监测、眼压监测）或自然界现象（"human skin"、"skin-like"）切入
+- **问题引入方式**：**应用驱动 + 仿生类比**。从实际应用场景（电子皮肤、正畸力监测、眼压监测）或自然界现象（"human skin"、"skin-like"）切入。仿生类比时采用**逐属性映射**：生物组织的每个关键属性 → 人工材料需复现什么 → 现有做到什么程度 → 还差什么
 - **四段式论证链**：现象观察 → 机制假设 → 实验验证 → 性能/应用展示
-- **Gap 识别策略**："However/Despite/Although" 转折，指出现有方法在灵敏度、线性度、范围、稳定性等指标不足
+- **Gap 识别策略**："However/Despite/Although" 转折，指出现有方法在灵敏度、线性度、范围、稳定性等指标不足。导师常用**双重矛盾**构建 Gap：从两个对立方向（"However...On the other hand..."）论证"没有中间地带"，比单线不足更有说服力
 - **Contribution 声明格式**（高度模式化）：
   - "In this work, we propose/present/develop [方法] for [应用]"
   - "Herein, we demonstrate/report [方法] that achieves [指标]"
@@ -144,32 +145,97 @@
   - 极端肯定词（definitely, prove 罕见，多用 demonstrate）
   - 情感词（exciting, amazing → 保持客观）
 
+### 1.7 深层风格：论证结构与信息层次 ⭐ 基于导师修改版校准（2026-04-22，含 Results + Introduction 双版本校准）
+
+以下模式从导师亲自修改学生草稿的对比中提取，属于比用词/句式更深层的写作习惯。
+标注"跨章节"的模式在 Results 和 Introduction 两个修改版中均已确认。
+
+#### 1.7.1 段落节奏：短句锚点模式（Results节特有）
+- **模式**：Results 节每段首句为极短句（6-10 词），直接点明该段核心发现
+- **示例**：
+  - "The TeCH hydrogel exhibits exceptional mechanical properties."（8 词）
+  - "TeCH is insensitive to flaws."（6 词）
+  - "TeCH also exhibits strong flaw tolerance under cyclic loading."（10 词）
+- **功能**：作为段落"锚点"，读者扫读时即可抓住要点
+- **验证**：跨篇复现✅（多篇论文 Results 首句均为短句）| 有生成力✅ | 有排他性✅（非领域通用写法）
+- **章节差异**：Introduction 不使用此模式，首句平均 18-20 词
+
+#### 1.7.2 论证三段链：设计→数据→机制（跨章节变体）
+- **模式**：Results 节每段按 "实验设计 → 数据结果 → 机制解释" 三段链组织
+- **实验设计**："We [操作] to study/demonstrate the effect of [变量] on [性能]"
+- **数据结果**："The results show/exhibit [数据]"
+- **机制解释**："This is because [原因], due to [机制]"
+- **反面**：仅有数据对比而无因果解释 → 导师会补上完整的因果链
+- **Introduction 变体**："方案描述 → 机制解释 → 性能声明"，与 Results 节同一深层模式的变体
+- **验证**：跨篇复现✅ | 有生成力✅ | 有排他性⚠️（部分领域通用，但导师的因果深度超出一般水平）| 跨章节✅
+
+#### 1.7.3 主动实验叙事（Results节特有）
+- **模式**：Results 节描述实验操作时偏好 "We + 动词"，而非被动语态
+- **示例**：
+  - "We made a notch perpendicular to the growth direction..."
+  - "We also synthesized two control samples..."
+  - "We employed the single-edge-notch method to measure..."
+- **修正**：风格卡片 v1.0 中 Results 节被动语态 12-27% 的描述需要细化——陈述结果时用主动（exhibits/shows），描述实验操作时也用主动（We made/synthesized/employed），被动主要用于方法引用
+- **验证**：跨篇复现✅ | 有生成力✅ | 有排他性⚠️（"We+动词"在顶刊中常见，但导师在 Results 节的使用频率高于一般）
+- **章节差异**：Introduction 仅1处 "We report"，其余为第三人称陈述
+
+#### 1.7.4 方法精确性与边界声明 ⭐跨章节验证
+- **模式**：关键性能指标给出测量方法 + 声明适用边界
+- **示例**：
+  - "we employed the single-edge-notch method to measure its fracture toughness"
+  - "In principle, if the sample is insensitive to crack size, Eq. (1) cannot be used... In this case, however, we can use Eq. (1) to estimate a lower bound"
+- **边界声明句式**："In principle, [限制]. In this case, however, [变通方案]."
+- **验证**：跨篇复现✅ | 有生成力✅ | 有排他性✅（很多论文回避声明方法局限，导师则主动声明）| 跨章节✅（Introduction 也标注 "lower-bound"）
+
+#### 1.7.5 数据精确度分层 ⭐跨章节验证
+- **模式**：根据数据性质选择不同精确度表述
+  - 精确测量值 → 直接数字（"7.91 MPa", "10.7 MJ m⁻³"）
+  - 近似测量值 → ~前缀（"~207%"）
+  - 估算值 → approximately（"λf is approximately 3"）
+  - 边界值 → lower bound/upper bound 标注（"a lower-bound fracture toughness Γlower of 111 kJ·m⁻²"）
+- **验证**：跨篇复现✅ | 有生成力✅ | 有排他性⚠️（精确值/近似值区分常见，但 lower bound 标注是导师特色）| 跨章节✅（Introduction 也严格分层：精确值 "111 kJ m⁻²" / 近似值 "~1 kJ m⁻²" / 边界值 "lower-bound"）
+
+#### 1.7.6 多参照物分层对比 ⭐跨章节验证
+- **模式**：性能对比使用多类型参照物，而非仅与上一代样品对比
+- **示例**：
+  - 软离子导体 (3 kJ m⁻²) → 非导电水凝胶 (<10 kJ m⁻²) → 肌腱 (1 kJ m⁻²) → 肌肉 (1 kJ m⁻²)
+- **对比模板**："This [指标] surpasses that of [参照物1] (值1), [参照物2] (值2), and [参照物3] (值3)."
+- **验证**：跨篇复现✅ | 有生成力✅ | 有排他性✅ | 跨章节✅（Introduction 也用 vs tendons/muscles + vs graphite 多参照物）
+
 ---
 
 ## 二、分章节写作指南
 
 ### 2.1 Introduction
 
-**典型结构**（4-6 段，100-150 词）：
-1. 段1：应用场景切入（电子皮肤、可穿戴设备等）或仿生类比（"Human skin can perceive..."）
-2. 段2-3：现有方法综述 + "However/Despite" 指出不足（灵敏度、线性度、范围、稳定性）
-3. 段4-5：提出本文方案，核心设计思路，"Herein, we demonstrate ..."
-4. 段6（可选）：论文结构概览
+**典型结构**（3-5 段，200-400 词）：
+1. 段1：应用场景切入或仿生类比，末句声明工程目标（目标+路径+约束+应用四重声明）
+2. 段2：现有方法综述 + "However... On the other hand..." 双重矛盾构建 Gap
+3. 段3-4：提出本文方案，核心设计思路 + 机制解释 + 性能数据前置，"Here, we report ..." / "In this work, we ..."
+4. 段5（可选）：论文结构概览
 
 **本节特殊偏好**：
 - 句长：平均 29-37 词（全篇最长，信息密度最高）
-- 语态：主动为主（被动 17-24%）
+- 语态：主动为主（被动 17-24%），但 "We+动词" 仅1处用于贡献声明
 - Hedging：contribution 声明不用 hedging（直接断言）
 - **绝不使用 bullet list** 列 contribution
+- **性能数据前置**：在贡献声明段直接给出2-3组关键性能数据+多参照物对比
+- **双重矛盾 Gap**：用 "However... On the other hand..." 从两个对立方向构建无中间地带
+- **逐属性仿生映射**：仿生时逐属性映射（生物属性→工程需求→现有程度→剩余差距）
+- **边界声明**：Introduction 也标注 "lower-bound"，与方法精确性保持一致
 - 段首常用："Flexible pressure sensors have attracted ..." / "The measurement of X is crucial for ..." / "In recent years, ..."
 
 **可复用句式**：
 ```
 "[应用场景] has attracted considerable attention due to its potential applications in ..."
-"However, existing sensors still suffer from [问题1] and [问题2], limiting their practical applications."
+"Biotissues, such as [示例], are subjected to [挑战], whereas such natural tissues rarely experience [失败]."
+"However, existing [方法] still suffer from [问题1]. On the other hand, pure [方法2], although exhibiting [优势], show [不足] due to [原因]."
+"It is still a grand challenge to make [材料] with both [属性1] and [属性2] satisfactory for [应用]."
 "In this work, we propose/present/develop [方法] for [应用], which achieves [关键指标]."
-"Herein, we demonstrate that [策略] achieves [性能], enabling [应用方向]."
-"The design of [方法] enables [优势1], [优势2], and [优势3]."
+"Herein, we demonstrate/report [方法] that achieves [性能], enabling [应用方向]."
+"Here, we report [材料/方法], in addition to [器件] that inherit [属性]."
+"The [材料] exhibits a lower-bound [指标] of [数值] that is [N] times higher than that of [参照物]."
+"This study opens a venue for [方向] that may [展望]."
 ```
 
 ### 2.2 Methods
@@ -202,12 +268,24 @@
 - 多图联动："Fig. 1a-d" 子图协同
 - 数值精度：保留 2-3 位有效数字，大数用科学计数法
 
+**深层风格**（基于导师修改版校准）：
+- **段落锚点**：每段首句 ≤10 词，直接陈述核心发现（如 "TeCH is insensitive to flaws."）
+- **论证三段链**：实验设计(We did X to study Y) → 数据结果(exhibits Z) → 机制解释(This is because... / due to...)
+- **主动实验叙事**：实验操作用 "We+动词"（We made/synthesized/employed），不回避第一人称
+- **方法精确性**：关键性能给出测量方法 + 适用边界声明
+- **数据精确度分层**：精确值→直接数字 / 近似值→~前缀 / 估算值→approximately / 边界值→lower bound
+- **多参照物对比**：vs 同类材料 + 不同类别材料 + 天然材料，而非仅 vs 对照组
+
 **可复用句式**：
 ```
+"[段落锚点]: [材料] exhibits [核心性能]. / [材料] is insensitive to [缺陷类型]."
 "As shown in Fig. X, the sensor exhibits a sensitivity of X kPa⁻¹ within Y–Z kPa."
 "The sensitivity reaches X kPa⁻¹ at Y kPa, which is [N] times higher than that of [对比对象]."
 "The device shows a linear response (R² = X) over a broad pressure range of Y–Z kPa."
 "Compared with [方法], our sensor demonstrates superior [性能] performance."
+"[实验叙事]: We [操作] to study/demonstrate the effect of [变量] on [性能]."
+"[因果链]: This is because [原因], due to [机制]. As [条件] increases, [现象] intensifies, promoting [结果]."
+"[边界声明]: In principle, [方法限制]. In this case, however, we can [变通方案] to estimate a lower bound of [指标]."
 ```
 
 ### 2.4 Discussion
@@ -253,7 +331,7 @@
 ## 三、偶发特征附录
 
 以下特征未通过三重验证（仅 1 重验证），不作为核心风格，但值得了解：
-- **"Here, we report" 开头**：仅出现在 Science Advances 论文中（3/22），其他期刊偏好 "In this work, we"
+- **"Here, we report" 开头**：出现在 Science Advances 论文中（3/22）及 Introduction 修改版中，确认是导师的第三种贡献引导词
 - **"In this article, we have summarized" 开头**：仅出现在综述论文中（1/22）
 - **独立 Discussion 章节**：取决于期刊格式（Nature 系列有，Adv. Mater 系列无），非导师主动选择
 - **数值用分数表示**（如 "2/3 of"）：仅偶见
@@ -286,6 +364,7 @@
 ## 五、诚实边界
 
 - 本卡片基于 22 篇论文分析，其中大部分为导师通讯作者论文
+- **1.7 深层风格章节**基于导师修改 2 份学生草稿（Results + Introduction）的对比分析校准，Introduction 校准样本量为 1，需更多修改版验证
 - **Conclusion 样本不足**：脚本仅识别到 2 篇的独立 Conclusion 章节，其余被合并或解析不完整，该维度置信度中等
 - **"can" 未计入 hedging 统计**：脚本词表未包含 "can"，但 Agent3 分析发现 "can" 实际使用 ~65 次，是最频繁的 hedging/能力词。真实的 H/A 比值可能更低
 - 合著论文可能混杂学生写作风格，特别是第一作者段落的表达可能不代表导师风格
@@ -299,6 +378,7 @@
 ```
 句长目标：        18 ± 3 词（Introduction 可放宽到 30-35 词）
 被动语态：        全局 ~21%，Methods 节 54-84%，Introduction ~20%
+                  Results 节：陈述结果用主动(exhibits)，实验操作也用主动(We made/synthesized/employed)
 Hedging 倾向：    中性（H/A ≈ 0.8）
                   Introduction: 贡献声明不用 hedging
                   Discussion: hedging 最密集
@@ -306,12 +386,19 @@ Hedging 倾向：    中性（H/A ≈ 0.8）
 首选连接词：      递进=also/in addition | 转折=while/however
                   因果=thus/therefore | 举例=such as
                   总结=overall/finally（不用 "in conclusion"）
-Contribution：    连续段落（绝不 bullet），"In this work, we ..."
+Contribution：    连续段落（绝不 bullet），"In this work, we ..." / "Here, we report ..."
+                  性能数据前置：Introduction 末段直接给出2-3组关键数据+多参照物对比
+双重矛盾Gap：     "However... On the other hand..." 从两个对立方向构建无中间地带
+段落锚点：        Results 每段首句 ≤10 词，直接陈述核心发现（Introduction 不用此模式）
+论证三段链：      Results: 实验设计(We did X) → 数据结果(exhibits Z) → 机制解释(This is because...)
+                  Introduction: 方案描述 → 机制解释 → 性能声明（同一深层模式变体）
 数据描述：        "The sensor exhibits a sensitivity of X kPa⁻¹ within Y–Z kPa"
 图表引用：        "As shown in Fig. X, ..."（后置引用）
                   多图联动 "Fig. 1a-d"
 Caption 命名：    "Figure X. [动词] + [研究对象]"
 因果表述：        "Due to ...structure, ..." / "can be attributed to ..."
+边界声明：        "In principle, [限制]. In this case, however, [变通方案]."
+数据分层：        精确值→直接数字 / 近似值→~前缀 / 估算→approximately / 边界→lower bound
 绝不使用：        very（用 highly/significantly）
                   in conclusion（用 In summary）
                   口语化连接词（plus, anyway）
@@ -329,4 +416,4 @@ Caption 命名：    "Figure X. [动词] + [研究对象]"
 - **写作辅助时**：AI 读取卡片中对应章节指南，作为写作约束
 - **润色检查时**：逐条对照快速参考卡片的参数范围
 - **更新时**：增量修改变化项，保留不变项，在卡片顶部更新日期和样本数
-- 本卡片版本：v1.0 | 生成日期：2026-04-21
+- 本卡片版本：v1.2 | 生成日期：2026-04-21 | 最近校准：2026-04-22（基于导师 Results + Introduction 修改版双版本校准）

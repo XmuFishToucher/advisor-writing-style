@@ -103,11 +103,26 @@
 - 数据呈现顺序：[先图后文 / 先文后图]
 - 实验对比组织：[按数据集 / 按 baseline / 按 ablation]
 
+**段落节奏模式**（深层风格，基于导师修改版校准）：
+- **首句锚点**：每段首句 ≤10 词，直接点明核心发现
+  - 示例："[材料] is insensitive to flaws." / "[材料] exhibits exceptional [性能]."
+  - 功能：读者扫读即可抓住段落要点
+- **论证三段链**：实验设计(We did X to study Y) → 数据结果(The results show Z) → 机制解释(This is because... / due to...)
+  - 仅有数据对比而无因果解释 → 不完整论证
+- **主动实验叙事**：实验操作用 "We + 动词"（We made / We synthesized / We employed），而非被动
+- **方法精确性**：关键性能指标给出测量方法 + 适用边界声明（"In principle... however, we can estimate a lower bound"）
+- **数据精确度分层**：精确测量值→直接数字 / 近似值→~前缀 / 估算值→approximately / 边界值→lower bound标注
+- **对比多层次展开**：对比用多参照物（同类材料 / 不同类别材料 / 天然材料），而非仅 vs 对照组
+
 **可复用句式**：
 ```
 "[数据描述模板 1]"
 "[数据描述模板 2]"
 "[对比声明模板]"
+"[段落锚点模板]: [材料] exhibits [核心性能]. / [材料] is insensitive to [缺陷类型]."
+"[实验叙事模板]: We [操作] to study/demonstrate the effect of [变量] on [性能]."
+"[因果链模板]: This is because [原因], due to [机制]. As [条件] increases, [现象] intensifies, promoting [结果]."
+"[边界声明模板]: In principle, [方法限制]. In this case, however, we can [变通方案] to estimate a lower bound of [指标]."
 ```
 
 ### 2.4 Discussion
